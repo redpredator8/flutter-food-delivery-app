@@ -57,11 +57,11 @@ function MyTabs() {
         component={Orders}
         options={{ title: t('orders') }}
       />
-      {/* <Tab.Screen
+      <Tab.Screen
         name="Wallet"
         component={Wallet}
         options={{ title: t('wallet') }}
-      /> */}
+      />
       {/* {
         Platform.OS === 'ios'? null : <Tab.Screen
         name="Language"
@@ -69,11 +69,11 @@ function MyTabs() {
         options={{ title: t('language') }}
       />
       } */}
-      {/* <Tab.Screen
+      <Tab.Screen
         name="Language"
         component={Language}
         options={{ title: t('language') }}
-      /> */}
+      />
       <Tab.Screen
         name="Profile"
         component={NoDrawer}
@@ -240,13 +240,13 @@ function AppContainer() {
 
   useEffect(() => {
     const dsn = configuration?.riderAppSentryUrl
-
+  
     if (dsn) {
       Sentry.init({
         dsn: dsn,
-        environment: 'development',
+        environment:"development",
         enableInExpoDevelopment: true,
-        debug: true,
+        debug:  true,
         tracesSampleRate: 1.0 // to be changed to 0.2 in production
       })
     }
