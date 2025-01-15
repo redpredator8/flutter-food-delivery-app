@@ -8,14 +8,17 @@ import { fr } from './languages/fr'
 import { km } from './languages/km'
 import { zh } from './languages/zh'
 import { ar } from './languages/ar'
+import { es } from './languages/es'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+
 export const languageResources = {
   en: { translation: en },
   zh: { translation: zh },
   de: { translation: de },
   fr: { translation: fr },
   km: { translation: km },
-  ar: { translation: ar }
+  ar: { translation: ar },
+  es: { translation: es }
 }
 
 const getStoredLanguage = async () => {
@@ -24,23 +27,25 @@ const getStoredLanguage = async () => {
   i18next.use(initReactI18next).init({
     compatibilityJSON: 'v3',
     lng: lng,
-    fallbackLng: 'en',
+    fallbackLng: 'es',
     resources: languageResources
   })
 }
+
 if (Platform.OS === 'android') {
   getStoredLanguage()
 }
+
 if (Platform.OS === 'ios') {
   i18next.locale = Localization.locale
   i18next.use(initReactI18next).init({
     compatibilityJSON: 'v3',
-    lng: i18next.locale,
-    fallbackLng: 'en',
+    lng: 'es',
+    fallbackLng: 'es',
     resources: languageResources
   })
   console.log('language:', Localization.locale)
-  i18next.changeLanguage(i18next.locale)
+  i18next.changeLanguage('es')
 }
 
 export default i18next
