@@ -1,0 +1,886 @@
+[
+    {
+        "__typename": "Order",
+        "_id": "67875571d26ffddb8a013843",
+        "acceptedAt": "2025-01-15T06:28:41.552Z",
+        "assignedAt": "2025-01-15T06:29:49.378Z",
+        "createdAt": "2025-01-15T06:28:01.066Z",
+        "deliveredAt": "2025-01-15T07:42:00.559Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "P28H+95P, E-8/1 E 8/1 E-8, Islamabad, Islamabad Capital Territory, Pakistan",
+            "details": "P28H+95P, E-8/1 E 8/1 E-8, Islamabad, Islamabad Capital Territory, Pakistan",
+            "label": "Other",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 250,
+        "expectedTime": "2025-01-15T19:19:25.973Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 285.99,
+        "orderId": "23KPZ-15",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:29:59.360Z",
+        "preparationTime": "2025-01-15T06:38:41.455Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "67516a7870ca554aeb7d4386",
+            "address": "G-6 Islamabad",
+            "location": [Object
+            ],
+            "name": "Pasta Heaven"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 26,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67115a6aada1b30367539d35",
+            "name": "Hyghgv",
+            "phone": "+92350383060"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67875533d26ffddb8a011f0e",
+        "acceptedAt": "2025-01-15T06:27:14.660Z",
+        "assignedAt": "2025-01-15T06:31:07.275Z",
+        "createdAt": "2025-01-15T06:26:59.602Z",
+        "deliveredAt": "2025-01-15T06:41:21.907Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.973Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14695.99,
+        "orderId": "Q2LP6-12",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:40:34.081Z",
+        "preparationTime": "2025-01-15T06:47:14.585Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1336,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67875028f67eccd24f0bf5ed",
+            "name": "Hareem Farooqi",
+            "phone": "+923325758845"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "678751a5f67eccd24f0c35e1",
+        "acceptedAt": "2025-01-15T06:12:24.713Z",
+        "assignedAt": "2025-01-15T06:12:50.698Z",
+        "createdAt": "2025-01-15T06:11:49.502Z",
+        "deliveredAt": "2025-01-15T06:13:14.478Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.974Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14695.99,
+        "orderId": "Q2LP6-9",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:13:04.250Z",
+        "preparationTime": "2025-01-15T06:32:24.633Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1336,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67875028f67eccd24f0bf5ed",
+            "name": "Hareem Farooqi",
+            "phone": "+923325758845"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "6787506af67eccd24f0bfdc0",
+        "acceptedAt": "2025-01-15T06:09:38.610Z",
+        "assignedAt": "2025-01-15T06:10:22.225Z",
+        "createdAt": "2025-01-15T06:06:34.076Z",
+        "deliveredAt": "2025-01-15T06:11:03.799Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.974Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14695.99,
+        "orderId": "Q2LP6-8",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:10:39.257Z",
+        "preparationTime": "2025-01-15T06:29:38.526Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1336,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67875028f67eccd24f0bf5ed",
+            "name": "Hareem Farooqi",
+            "phone": "+923325758845"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67874501b1c657580a9f6459",
+        "acceptedAt": "2025-01-15T05:19:39.918Z",
+        "assignedAt": "2025-01-15T05:23:39.589Z",
+        "createdAt": "2025-01-15T05:17:53.768Z",
+        "deliveredAt": "2025-01-15T05:27:09.055Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.975Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14706.98,
+        "orderId": "Q2LP6-6",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T05:26:54.732Z",
+        "preparationTime": "2025-01-15T05:59:39.840Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1337,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "678743f7b1c657580a9f5ee4",
+            "name": "Mr Abdullah",
+            "phone": "+9722348338442"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67874488b1c657580a9f5f99",
+        "acceptedAt": "2025-01-15T05:44:00.838Z",
+        "assignedAt": "2025-01-15T05:44:31.635Z",
+        "createdAt": "2025-01-15T05:15:52.325Z",
+        "deliveredAt": "2025-01-15T05:44:41.571Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.975Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14706.98,
+        "orderId": "Q2LP6-5",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T05:44:35.470Z",
+        "preparationTime": "2025-01-15T05:54:00.744Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1337,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "678743f7b1c657580a9f5ee4",
+            "name": "Mr Abdullah",
+            "phone": "+9722348338442"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "6786a7668fe9cbd086e789d6",
+        "acceptedAt": "2025-01-14T18:27:05.229Z",
+        "assignedAt": "2025-01-14T18:32:33.352Z",
+        "createdAt": "2025-01-14T18:05:26.187Z",
+        "deliveredAt": "2025-01-14T23:52:23.961Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+3Q7, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13550,
+        "expectedTime": "2025-01-15T19:19:25.976Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14938,
+        "orderId": "82Y9O-19",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-14T23:52:05.676Z",
+        "preparationTime": "2025-01-14T18:37:05.127Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751523f70ca554aeb7caa27",
+            "address": "E 8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Burger Vault"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1358,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "6786a71d8fe9cbd086e784db",
+            "name": "salman lone",
+            "phone": "+923455900215"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "6786596c8fe9cbd086e670dd",
+        "acceptedAt": "2025-01-14T12:38:45.777Z",
+        "assignedAt": "2025-01-14T12:54:48.869Z",
+        "createdAt": "2025-01-14T12:32:44.407Z",
+        "deliveredAt": "2025-01-15T03:38:57.505Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "Office",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13150,
+        "expectedTime": "2025-01-15T19:19:25.977Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14475.99,
+        "orderId": "M7QA5-3",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T03:38:53.293Z",
+        "preparationTime": "2025-01-14T12:48:45.696Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751782b70ca554aeb7d535a",
+            "address": "I-9 Islamabad",
+            "location": [Object
+            ],
+            "name": "Vegan Spot"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1316,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67864008cb33ce34ca1624fd",
+            "name": "Reem Far",
+            "phone": "+9233389499494"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "678656678fe9cbd086e664c5",
+        "acceptedAt": "2025-01-14T12:52:53.409Z",
+        "assignedAt": "2025-01-14T18:06:55.071Z",
+        "createdAt": "2025-01-14T12:19:51.070Z",
+        "deliveredAt": "2025-01-15T04:26:31.558Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "Office",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.977Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14706.98,
+        "orderId": "4MSVJ-2",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T04:10:02.386Z",
+        "preparationTime": "2025-01-14T13:02:53.280Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752852670ca554aeb801494",
+            "address": "G-9 Islamabad",
+            "location": [Object
+            ],
+            "name": "FreshMart"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1337,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67864008cb33ce34ca1624fd",
+            "name": "Reem Far",
+            "phone": "+9233389499494"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "678650346f3662f283cdef7c",
+        "acceptedAt": "2025-01-14T12:01:21.065Z",
+        "assignedAt": "2025-01-14T12:02:05.422Z",
+        "createdAt": "2025-01-14T11:53:24.116Z",
+        "deliveredAt": "2025-01-14T12:03:48.822Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "Office",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13350,
+        "expectedTime": "2025-01-15T19:19:25.977Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14708.1,
+        "orderId": "Q2LP6-4",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-14T12:03:07.634Z",
+        "preparationTime": "2025-01-14T12:11:20.983Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6752912d70ca554aeb80651c",
+            "address": "G-11 Islamabad",
+            "location": [Object
+            ],
+            "name": "Quick Stop Grocery"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1337.1,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67864008cb33ce34ca1624fd",
+            "name": "Reem Far",
+            "phone": "+9233389499494"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67864d2fcb33ce34ca1653b9",
+        "acceptedAt": "2025-01-14T11:41:35.343Z",
+        "assignedAt": "2025-01-14T11:44:48.740Z",
+        "createdAt": "2025-01-14T11:40:31.613Z",
+        "deliveredAt": "2025-01-14T11:45:07.655Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "details": "H9GQ+85M, Nabi Pura, Lahore, Punjab, Pakistan",
+            "label": "Office",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 13200,
+        "expectedTime": "2025-01-15T19:19:25.978Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 14530.99,
+        "orderId": "0976R-40",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-14T11:45:01.798Z",
+        "preparationTime": "2025-01-14T11:51:35.259Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751761070ca554aeb7d4c61",
+            "address": "I-8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Dessert Table"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 1321,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67864008cb33ce34ca1624fd",
+            "name": "Reem Far",
+            "phone": "+9233389499494"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67864bc02ab426c7f48b88b5",
+        "acceptedAt": "2025-01-14T18:27:10.524Z",
+        "assignedAt": "2025-01-14T18:32:36.968Z",
+        "createdAt": "2025-01-14T11:34:24.111Z",
+        "deliveredAt": "2025-01-15T06:00:13.519Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "30 Street 17, F-7/2 F 7/2 F-7, Islamabad, Islamabad Capital Territory, Pakistan",
+            "details": "30 Street 17, F-7/2 F 7/2 F-7, Islamabad, Islamabad Capital Territory, Pakistan",
+            "label": "Apartment",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 100,
+        "expectedTime": "2025-01-15T19:19:25.978Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ],
+            [Object
+            ]
+        ],
+        "orderAmount": 176,
+        "orderId": "82Y9O-18",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:00:08.453Z",
+        "preparationTime": "2025-01-14T18:47:10.398Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751523f70ca554aeb7caa27",
+            "address": "E 8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Burger Vault"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 16,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67864b6f2ab426c7f48b833d",
+            "name": "Wusgs Wygs",
+            "phone": "+923895865888888"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "678636f7cb33ce34ca1557a4",
+        "acceptedAt": "2025-01-14T10:07:04.712Z",
+        "assignedAt": "2025-01-14T18:32:38.125Z",
+        "createdAt": "2025-01-14T10:05:43.798Z",
+        "deliveredAt": "2025-01-15T06:00:50.196Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "M39G+33F, I-8 Markaz I 8 Markaz I-8, Islamabad, Islamabad Capital Territory, Pakistan",
+            "details": "M39G+33F, I-8 Markaz I 8 Markaz I-8, Islamabad, Islamabad Capital Territory, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 50,
+        "expectedTime": "2025-01-15T19:19:25.978Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 87.97,
+        "orderId": "0976R-32",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T06:00:41.969Z",
+        "preparationTime": "2025-01-14T10:17:04.644Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751761070ca554aeb7d4c61",
+            "address": "I-8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Dessert Table"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 8,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67115a6aada1b30367539d35",
+            "name": "Hyghgv",
+            "phone": "+92350383060"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "6786337de6fcb3a0c86ce247",
+        "acceptedAt": "2025-01-15T07:33:45.960Z",
+        "assignedAt": "2025-01-15T07:41:02.932Z",
+        "createdAt": "2025-01-14T09:50:53.870Z",
+        "deliveredAt": "2025-01-15T07:41:53.158Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "P2F5+FX, E-9, Islamabad, Islamabad Capital Territory, Pakistan",
+            "details": "P2F5+FX, E-9, Islamabad, Islamabad Capital Territory, Pakistan",
+            "label": "Apartment",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 9100,
+        "expectedTime": "2025-01-15T19:19:25.979Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 10031.98,
+        "orderId": "Z3YGK-4",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T07:41:31.435Z",
+        "preparationTime": "2025-01-15T07:43:45.879Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "67528fed70ca554aeb80568c",
+            "address": "Mianwali Pakistan",
+            "location": [Object
+            ],
+            "name": "Asian Market"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 912,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67863348e6fcb3a0c86cdd51",
+            "name": "Alenas Alenas",
+            "phone": "+923566466556676"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "67861958278d1f9f0c8f61cb",
+        "acceptedAt": "2025-01-14T09:15:24.223Z",
+        "assignedAt": "2025-01-14T18:32:48.261Z",
+        "createdAt": "2025-01-14T07:59:20.426Z",
+        "deliveredAt": "2025-01-15T09:01:58.150Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "10 Street 7, E-9/3 E-9, Islamabad, Islamabad Capital Territory, Pakistan",
+            "details": "10 Street 7, E-9/3 E-9, Islamabad, Islamabad Capital Territory, Pakistan",
+            "label": "Apartment",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 400,
+        "expectedTime": "2025-01-15T19:19:25.979Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ]
+        ],
+        "orderAmount": 445.5,
+        "orderId": "0976R-30",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-15T09:01:38.053Z",
+        "preparationTime": "2025-01-14T09:35:24.134Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751761070ca554aeb7d4c61",
+            "address": "I-8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Dessert Table"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 40.5,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "6785f8f8278d1f9f0c8e0017",
+            "name": "Fateema Fateema",
+            "phone": "+92356578567"
+        }
+    },
+    {
+        "__typename": "Order",
+        "_id": "6785af62cb33ce34ca0f72cb",
+        "acceptedAt": "2025-01-14T00:27:36.804Z",
+        "assignedAt": "2025-01-14T05:57:52.962Z",
+        "createdAt": "2025-01-14T00:27:14.449Z",
+        "deliveredAt": "2025-01-15T06:01:14.563Z",
+        "deliveryAddress": {
+            "__typename": "OrderAddress",
+            "deliveryAddress": "48, NPF MPCHS E 11/4 E-11, Islamabad, Islamabad Capital Territory 44000, Pakistan",
+            "details": "48, NPF MPCHS E 11/4 E-11, Islamabad, Islamabad Capital Territory 44000, Pakistan",
+            "label": "House",
+            "location": [Object
+            ]
+        },
+        "deliveryCharges": 500,
+        "expectedTime": "2025-01-15T19:19:25.979Z",
+        "isPickedUp": false,
+        "isRiderRinged": false,
+        "items": [
+            [Object
+            ],
+            [Object
+            ]
+        ],
+        "orderAmount": 563.2,
+        "orderId": "0976R-27",
+        "orderStatus": "DELIVERED",
+        "paidAmount": 0,
+        "paymentMethod": "COD",
+        "paymentStatus": "PENDING",
+        "pickedAt": "2025-01-14T05:57:56.981Z",
+        "preparationTime": "2025-01-14T00:57:36.736Z",
+        "reason": null,
+        "restaurant": {
+            "__typename": "RestaurantDetail",
+            "_id": "6751761070ca554aeb7d4c61",
+            "address": "I-8 Islamabad",
+            "location": [Object
+            ],
+            "name": "The Dessert Table"
+        },
+        "rider": {
+            "__typename": "Rider",
+            "_id": "6749aade8afc4a157ffcc5d7",
+            "name": "Asia rider",
+            "username": "asiarider"
+        },
+        "taxationAmount": 51.2,
+        "tipping": 0,
+        "user": {
+            "__typename": "User",
+            "_id": "67115a6aada1b30367539d35",
+            "name": "Hyghgv",
+            "phone": "+92350383060"
+        }
+    }
+]
